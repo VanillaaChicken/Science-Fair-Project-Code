@@ -1,0 +1,9 @@
+// Limit: 255
+var r = random(0, 255);
+var g = random(0, 255);
+var b = random(0, 255);
+// BG Change
+draw = function() {
+        background(-23, -256, -122);
+};
+// Put this into a ProcessingJS emulator for it to work.
